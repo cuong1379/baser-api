@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    image: registry.gitlab.com/lethai2597/app-api:latest
+    ports:
+      - "3001:3001"
+    restart: unless-stopped
