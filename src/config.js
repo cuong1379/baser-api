@@ -1,6 +1,6 @@
 exports.port = process.env.PORT || 5000
 exports.mongo = {
-    uri: `mongodb+srv://clolc:cuong179@cluster0.i1cff.mongodb.net/clolc?retryWrites=true&w=majority`,
+    uri: `mongodb+srv://cuong:12345@cluster0.tp6kie9.mongodb.net/?retryWrites=true&w=majority`,
     options: {
         useNewUrlParser: true, 
         useUnifiedTopology: true,
