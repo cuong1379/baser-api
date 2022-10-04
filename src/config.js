@@ -7,4 +7,4 @@ exports.mongo = {
         useCreateIndex: true
     }
 }
-exports.jwtSecetKey = process.env.JWT_SECRET_KEY || cuong12345
+exports.jwtSecetKey = process.env.JWT_SECRET_KEY || 'cuong12345'
